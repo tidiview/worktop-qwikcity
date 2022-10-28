@@ -8,6 +8,7 @@ export default component$(() => {
 
       <ul>
         <li>This homepage uses a layout without a menu.</li>
+        <li><ruby>怜<rp>（</rp><rt>れ</rt><rp>）</rp>央<rp>（</rp><rt>お</rt><rp>）</rp></ruby>。これは日本語の文書のフォントのサンプルです。</li>
         <li>
           <span>The </span>
           <a href="/docs">Documentation</a>
