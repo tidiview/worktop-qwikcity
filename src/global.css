@@ -6,8 +6,7 @@
   --user-font-scale: 1rem - 16px;
   --max-width: calc(100% - 1rem);
 
-  --font-body: -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica Neue, HelveticaNeue, Hiragino Kaku Gothic ProN, Meiryo, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji;
+  --font-body: -apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica Neue,HelveticaNeue,Hiragino Kaku Gothic ProN,Meiryo,sans-serif;
   --font-mono: 'IBM Plex Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
     'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono',
     'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
