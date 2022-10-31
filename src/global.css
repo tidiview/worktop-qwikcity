@@ -64,3 +64,11 @@ code {
   font-size: 0.9em;
   border-bottom: 2px solid #bfbfbf;
 }
+
+li:has(ruby), p:has(ruby)  {
+  margin-top: 20px;
+}
+
+li :not(ruby), p :not(ruby) {
+  margin-top: 20px;
+}
