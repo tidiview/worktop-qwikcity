@@ -66,9 +66,9 @@ code {
 }
 
 li:has(ruby), p:has(ruby)  {
-  margin-top: 20px;
+  margin-top: .125rem;
 }
 
 li :not(ruby), p :not(ruby) {
-  margin-top: 20px;
+  margin-top: .125rem;
 }
