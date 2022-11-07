@@ -28,7 +28,7 @@ export const RouterHead = component$(() => {
       ))}
 
       {head.links.map((l) => (
-        <link type="text/css" {...l} />
+        <link {...l} />
       ))}
 
       {head.styles.map((s) => (
