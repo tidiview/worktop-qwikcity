@@ -4,7 +4,7 @@ specifiers:
   '@builder.io/qwik': 0.15.2
   '@builder.io/qwik-city': 0.0.128
   '@types/eslint': 8.4.10
-  '@types/node': latest
+  '@types/node': 18.11.13
   '@typescript-eslint/eslint-plugin': 5.46.0
   '@typescript-eslint/parser': 5.46.0
   eslint: 8.29.0
@@ -20,7 +20,7 @@ devDependencies:
   '@builder.io/qwik': 0.15.2
   '@builder.io/qwik-city': 0.0.128
   '@types/eslint': 8.4.10
-  '@types/node': 18.11.12
+  '@types/node': 18.11.13
   '@typescript-eslint/eslint-plugin': 5.46.0_5mle7isnkfgjmrghnnczirv6iy
   '@typescript-eslint/parser': 5.46.0_ha6vam6werchizxrnqvarmz2zu
   eslint: 8.29.0
@@ -28,7 +28,7 @@ devDependencies:
   node-fetch: 3.3.0
   prettier: 2.8.1
   typescript: 4.9.4
-  vite: 3.2.5_@types+node@18.11.12
+  vite: 3.2.5_@types+node@18.11.13
   vite-tsconfig-paths: 3.6.0_vite@3.2.5
   wrangler: 2.6.2
 
@@ -283,7 +283,7 @@ packages:
     resolution: {integrity: sha512-GDSweEhJ3nNtStGm6taZGUNytM0QTQ/sjZSedAKyF1/aHRaZUcD9cuKAMgIbSpKfvgGdLMNS7Bhd8jb249TO7g==}
     engines: {node: '>=16.13'}
     dependencies:
-      '@types/better-sqlite3': 7.6.2
+      '@types/better-sqlite3': 7.6.3
       kleur: 4.1.5
       npx-import: 1.1.4
       picomatch: 2.3.1
@@ -360,10 +360,10 @@ packages:
       '@types/estree': 1.0.0
     dev: true
 
-  /@types/better-sqlite3/7.6.2:
-    resolution: {integrity: sha512-RgmaapusqTq6IMAr4McMyAsC6RshYTCjXCnzwVV59WctUxC8bNPyUfT9t5F81lKcU41lLurhjqjoMHfauzfqGg==}
+  /@types/better-sqlite3/7.6.3:
+    resolution: {integrity: sha512-YS64N9SNDT/NAvou3QNdzAu3E2om/W/0dhORimtPGLef+zSK5l1vDzfsWb4xgXOgfhtOI5ZDTRxnvRPb22AIVQ==}
     dependencies:
-      '@types/node': 18.11.12
+      '@types/node': 18.11.13
     dev: true
 
   /@types/debug/4.1.7:
@@ -413,8 +413,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node/18.11.12:
-    resolution: {integrity: sha512-FgD3NtTAKvyMmD44T07zz2fEf+OKwutgBCEVM8GcvMGVGaDktiLNTDvPwC/LUe3PinMW+X6CuLOF2Ui1mAlSXg==}
+  /@types/node/18.11.13:
+    resolution: {integrity: sha512-IASpMGVcWpUsx5xBOrxMj7Bl8lqfuTY7FKAnPmu5cHkfQVWF8GulWS1jbRqA934qZL35xh5xN/+Xe/i26Bod4w==}
     dev: true
 
   /@types/semver/7.3.13:
@@ -2978,12 +2978,12 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.3
       tsconfig-paths: 4.1.1
-      vite: 3.2.5_@types+node@18.11.12
+      vite: 3.2.5_@types+node@18.11.13
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.2.5_@types+node@18.11.12:
+  /vite/3.2.5_@types+node@18.11.13:
     resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3008,7 +3008,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.12
+      '@types/node': 18.11.13
       esbuild: 0.15.15
       postcss: 8.4.19
       resolve: 1.22.1
