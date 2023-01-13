@@ -37,7 +37,7 @@
     "vite-tsconfig-paths": "4.0.3",
     "wrangler": "latest"
   },
-  "dependencies": {
+  "peerDependencies": {
     "undici": "^5.15.0"
   }
 }
