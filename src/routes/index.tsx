@@ -7,9 +7,9 @@ export default component$(() => {
       <h1>Welcome to Qwik Docs Starter</h1>
 
       <ul>
-        <li>This homepage uses a layout without a menu.</li>
         <li><ruby>怜<rp>（</rp><rt>れ</rt><rp>）</rp>央<rp>（</rp><rt>お</rt><rp>）</rp></ruby>。これは日本語の文書のフォントのサンプルです。</li>
         <li><ruby lang="fr">François<rp>（</rp><rt lang="ja">フランソワ</rt><rp>）</rp>&nbsp;<rp>（</rp><rt lang="ja">・</rt><rp>）</rp>VIDIT<rp>（</rp><rt lang="ja">ヴィディ</rt><rp>）</rp></ruby>。</li>
+        <li>This homepage uses a layout without a menu.</li>
         <li>
           <span>The </span>
           <a href="/docs">Documentation</a>
@@ -30,19 +30,16 @@ export default component$(() => {
         </li>
       </ul>
 
-
       <h2>Commands</h2>
 
       <table class="commands">
-      <thead>
+        <tbody>
           <tr>
             <td>
               <code>npm run dev</code>
             </td>
             <td>Start the dev server and watch for changes.</td>
           </tr>
-        </thead>
-        <tbody>
           <tr>
             <td>
               <code>npm run preview</code>
@@ -67,7 +64,7 @@ export default component$(() => {
       <h2>Add Integrations</h2>
 
       <table class="commands">
-        <thead>
+        <tbody>
           <tr>
             <td>
               <code>npm run qwik add azure-swa</code>
@@ -78,8 +75,6 @@ export default component$(() => {
               </a>
             </td>
           </tr>
-        </thead>
-        <tbody>
           <tr>
             <td>
               <code>npm run qwik add cloudflare-pages</code>
@@ -96,7 +91,7 @@ export default component$(() => {
             </td>
             <td>
               <a href="https://expressjs.com/" target="_blank">
-                Nodejs Express Server
+                Node.js Express Server
               </a>
             </td>
           </tr>
@@ -107,6 +102,16 @@ export default component$(() => {
             <td>
               <a href="https://docs.netlify.com/" target="_blank">
                 Netlify Edge Functions
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>npm run qwik add vercel-edge</code>
+            </td>
+            <td>
+              <a href="https://vercel.com/docs/concepts/get-started" target="_blank">
+                Vercel Edge Functions
               </a>
             </td>
           </tr>
