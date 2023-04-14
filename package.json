@@ -2,7 +2,7 @@
   "name": "my-qwik-docs-starter",
   "description": "Basic start point to build a docs site with Qwik",
   "engines": {
-    "node": ">=15.0.0"
+    "node": ">=16.0.0"
   },
   "private": true,
   "scripts": {
