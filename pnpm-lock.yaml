@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@builder.io/qwik':
-    specifier: ^1.2.14
+    specifier: ^1.2.18
     version: 1.2.18(@types/node@20.9.1)(undici@5.27.2)
   '@builder.io/qwik-city':
     specifier: ^1.2.18
@@ -27,7 +27,7 @@ devDependencies:
     specifier: ^8.54.0
     version: 8.54.0
   eslint-plugin-qwik:
-    specifier: ^1.2.14
+    specifier: ^1.2.18
     version: 1.2.18(eslint@8.54.0)
   prettier:
     specifier: ^3.1.0
