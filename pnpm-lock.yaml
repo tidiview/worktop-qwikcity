@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^1.2.18
     version: 1.2.18(@types/node@20.9.1)(undici@5.27.2)
   '@builder.io/qwik-city':
-    specifier: ^1.2.18
-    version: 1.2.18(@types/node@20.9.1)
+    specifier: github:BuilderIO/qwik-city-build#ab713a84f313920562d6ddb27db42bbfb6dacb90
+    version: github.com/BuilderIO/qwik-city-build/ab713a84f313920562d6ddb27db42bbfb6dacb90(@types/node@20.9.1)
   '@types/eslint':
     specifier: ^8.44.7
     version: 8.44.7
@@ -53,31 +53,6 @@ packages:
   /@aashutoshrathi/word-wrap@1.2.6:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /@builder.io/qwik-city@1.2.18(@types/node@20.9.1):
-    resolution: {integrity: sha512-MfWzMLi0MaoPpI11g4qXVF5mX6hqfjsIS3G+1FUU+x4FIJFcbTu9cMnbaw5YdMOgNdJRS5wf2M++KXVy5oyJ/w==}
-    engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
-    dependencies:
-      '@mdx-js/mdx': 2.3.0
-      '@types/mdx': 2.0.9
-      source-map: 0.7.4
-      svgo: 3.0.2
-      undici: 5.27.2
-      vfile: 6.0.1
-      vite: 4.5.0(@types/node@20.9.1)
-      vite-imagetools: 5.1.2
-      zod: 3.22.4
-    transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
-      - rollup
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
     dev: true
 
   /@builder.io/qwik@1.2.18(@types/node@20.9.1)(undici@5.27.2):
@@ -4141,4 +4116,32 @@ packages:
 
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
+    dev: true
+
+  github.com/BuilderIO/qwik-city-build/ab713a84f313920562d6ddb27db42bbfb6dacb90(@types/node@20.9.1):
+    resolution: {tarball: https://codeload.github.com/BuilderIO/qwik-city-build/tar.gz/ab713a84f313920562d6ddb27db42bbfb6dacb90}
+    id: github.com/BuilderIO/qwik-city-build/ab713a84f313920562d6ddb27db42bbfb6dacb90
+    name: '@builder.io/qwik-city'
+    version: 1.2.17-dev20231112150737
+    engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
+    dependencies:
+      '@mdx-js/mdx': 2.3.0
+      '@types/mdx': 2.0.9
+      source-map: 0.7.4
+      svgo: 3.0.2
+      undici: 5.27.2
+      vfile: 6.0.1
+      vite: 4.5.0(@types/node@20.9.1)
+      vite-imagetools: 5.1.2
+      zod: 3.22.4
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - rollup
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
     dev: true
