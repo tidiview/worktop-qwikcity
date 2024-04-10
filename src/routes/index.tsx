@@ -21,12 +21,11 @@ export default component$(() => {
           <br /> on me
         </h3>
         <Counter />
-
-<ul>
-  <li><ruby>怜<rp>（</rp><rt>れ</rt><rp>）</rp>央<rp>（</rp><rt>お</rt><rp>）</rp></ruby>。これは日本語の文書のフォントのサンプルです。</li>
-  <li><ruby lang="fr">François<rp>（</rp><rt lang="ja">フランソワ</rt><rp>）</rp>&nbsp;<rp>（</rp><rt lang="ja">・</rt><rp>）</rp>VIDIT<rp>（</rp><rt lang="ja">ヴィディ</rt><rp>）</rp></ruby>。</li>
-  <li>This homepage uses a layout without a menu.</li>
-</ul>
+        <ul>
+          <li><ruby>怜<rp>（</rp><rt>れ</rt><rp>）</rp>央<rp>（</rp><rt>お</rt><rp>）</rp></ruby>。これは日本語の文書のフォントのサンプルです。</li>
+          <li><ruby lang="fr">François<rp>（</rp><rt lang="ja">フランソワ</rt><rp>）</rp>&nbsp;<rp>（</rp><rt lang="ja">・</rt><rp>）</rp>VIDIT<rp>（</rp><rt lang="ja">ヴィディ</rt><rp>）</rp></ruby>。</li>
+          <li>This homepage uses a layout without a menu.</li>
+        </ul>
       </div>
 
       <div class="container container-flex">
