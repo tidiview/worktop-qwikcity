@@ -6,24 +6,22 @@ export default component$(() => {
 
   useTask$(async () => {
     if (isServer) {
-      const response = await fetch('https://worktop.francois-vidit.workers.dev/docs/ja/versailles/palais/hercule');
+      const response: Response = await fetch('https://worktop.francois-vidit.workers.dev/docs/ja/versailles/palais/hercule', {
+        method: "GET", // *GET, POST, PUT, DELETE, etc.
+        headers: {
+          Accept: 'application/json',
+          "Content-Type": "application/json",
+          // 'Content-Type': 'application/x-www-form-urlencoded',
+        }
+      });
       store.data = await response.json();
     }
   });
 
   return (
-    <div>
-      <Article data={store.data} />
-    </div>
+    <>
+      <section dangerouslySetInnerHTML={store.data.articleBody}>
+        </section>
+    </>
   );
 });
-
-export const Article = component$<{ data: any }>((props) => {
-    const article = props.data.articleBody;
-    return (
-      <main>
-        <section dangerouslySetInnerHTML={article}>
-        </section>
-      </main>
-    );
-  });
