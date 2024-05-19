@@ -2,7 +2,12 @@ import { component$, useTask$, useStore } from '@builder.io/qwik';
 import { isServer } from '@builder.io/qwik/build';
 
 export default component$(() => {
-  const store = useStore({ data: null });
+  const store = useStore({ data: {
+    "commonFrontmatter": {},
+    "uid": "",
+    "frontmatter": {},
+    "articleBody": "",
+  } } );
 
   useTask$(async () => {
     if (isServer) {
