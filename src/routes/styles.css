@@ -83,15 +83,6 @@ ul {
   padding-left: 20px;
 }
 
-li {
-  margin: 0 0 10px;
-  line-height: 2.5em;
-}
-
-div.container-center li {
-  list-style-type: none;
-}
-
 /* CONTAINER ------------------------------------ */
 .container {
   margin: 0 auto;
@@ -116,7 +107,7 @@ div.container-center li {
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 50px 80px;
+    padding: 60px 80px;
   }
   .container.container-spacing-xl {
     padding: 100px 60px;
